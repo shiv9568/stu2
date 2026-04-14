@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-stretch: 100%;
+    src: url(https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu0SC55K5gw.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
 
 * {
   box-sizing: border-box;
@@ -9,8 +16,14 @@
 :root {
   --main-color: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #03a9f4), color-stop(100%, #2980b9));
 }
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   max-width: 480px;
   margin: 0 auto;
   background-color: #f5f5f5;
@@ -304,14 +317,14 @@ body {
 .row {
   display: flex;
   align-items: center;
-  padding: 10px 12px;
+  padding: 14px 10px;
   font-size: 13px;
   border-bottom: none;
 }
 
 /* Alternating row backgrounds */
 .row:nth-child(odd) {
-  background-color: #f4f6f8;
+  background-color: #f8f9fa;
 }
 
 .row:nth-child(even) {
@@ -323,22 +336,21 @@ body {
 }
 
 .row .label {
-  color: #5a6472;
-  font-weight: 600;
-  font-size: 12.5px;
+  color: #79828e;
+  font-weight: 500;
+  font-size: 15px;
   width: 45%;
   text-align: right;
-  padding-right: 10px;
-  font-family: 'Roboto', sans-serif;
+  padding-right: 12px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .row .value {
-  
-  font-weight: 500;
-  font-size: 13px;
+  color: #1a202c;
+  font-weight: 400;
+  font-size: 13.5px;
   width: 55%;
-  text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* 🔹 F. BOTTOM NAVBAR */

@@ -12,7 +12,7 @@ const defaultData = {
   courseCard: "BACHELOR OF BUSINESS ADMINISTRATION",
   year: "6",
   section: "FIN-D",
-  classRoll: "0",
+  classRoll: "21",
   enrollNo: "GE-22244351",
   uniRoll: "2404351",
   highSchool: "53.8",

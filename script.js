@@ -17,7 +17,7 @@ const defaultData = {
   uniRoll: "2404351",
   highSchool: "53.8",
   intermediate: "66.4",
-  status: "Alumni",
+  status: "Student",
   batch: "2025-2029",
   contactNo: "9084655503",
   bloodGroup: "A+ve",
